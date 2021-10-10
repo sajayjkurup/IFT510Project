@@ -1,2 +1,1 @@
-./build_arm64.sh
-./build_amd64.sh
+docker buildx build --push --platform darwin/amd64,linux/amd64,linux/arm64 -t ghcr.io/sajayjkurup/caseconv:snapshot .

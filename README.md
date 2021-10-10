@@ -31,4 +31,17 @@ Response example:
 ```
 
 
+# References
+  - https://chemidy.medium.com/create-the-smallest-and-secured-golang-docker-image-based-on-scratch-4752223b7324 
+
+  - https://github.com/iancoleman/strcase
+
+  - https://hub.docker.com/_/scratch
+
+  - https://codeburst.io/docker-from-scratch-2a84552470c8
+
+  - https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/
+
+  - https://docs.docker.com/buildx/working-with-buildx/
+
 
