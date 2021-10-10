@@ -1,0 +1,5 @@
+FROM scratch
+ARG ARCHPLATFORM=local
+ENV ARCHPLATFORM ${ARCHPLATFORM}
+COPY target/caseconv_${ARCHPLATFORM} /main
+ENTRYPOINT ["/main"]
