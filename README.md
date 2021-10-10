@@ -2,14 +2,14 @@
 Convert a string to different standard case formats like CAMEL Case, SNAKE CASE etc
 
 
-## Build Porject
+## Build Project
 ```
 ./build.sh
 ```
 
 By default, this will cross compuile the GO project for linux amd64 and arm64 architectures. This will also build the docker containers for the same. 
 
-## Run Porject
+## Run Project
 ```
 ./run.sh
 ```
