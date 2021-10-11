@@ -45,7 +45,7 @@ func handleCaseConvertRequest(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 	}
 
-	w.Header().Set("Content-Type", "text/plain")
+	w.Header().Set("Content-Type", "application/json")
 	response := new(Response)
 	response.Format = format
 	response.Input = input
