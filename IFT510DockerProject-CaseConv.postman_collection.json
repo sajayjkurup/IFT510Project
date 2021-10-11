@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "fa7902fe-f614-4b6d-9b1f-fbbc2cde8ea5",
+		"name": "IFT510DockerProject-CaseConv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Supported Formats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/supportedformats",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"supportedformats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Convert Case",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/Hello World/convert?format=CAMEL",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Hello World",
+						"convert"
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "CAMEL"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
